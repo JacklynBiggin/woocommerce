@@ -73,7 +73,7 @@ async function myFieldValidator() {
 
 Finally, [the snackbar with the error](https://github.com/woocommerce/woocommerce/blob/trunk/packages/js/product-editor/src/components/header/publish-button/publish-button.tsx#L70) message and props will be displayed.
 
-![Product editor error snackbar](https://developer.woocommerce.com/wp-content/uploads/sites/2/2023/09/groups-sections-fields.jpg)
+![Product editor error snackbar](https://developer.woocommerce.com/wp-content/uploads/sites/2/2024/07/product-editor-error-snack-bar-e1721670028482.png)
 
 ### Limitations
 
