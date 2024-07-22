@@ -7,7 +7,7 @@ for more information.
 
 ## Add a link to error snackbar
 
-### What happens when there is an error in a field?
+### What happens when there is an error in the form?
 
 1. Every field [will be validated](https://github.com/woocommerce/woocommerce/blob/trunk/packages/js/product-editor/src/contexts/validation-context/validation-provider.tsx#L87-L110).
 
