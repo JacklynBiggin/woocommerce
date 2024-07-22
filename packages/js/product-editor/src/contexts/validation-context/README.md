@@ -63,7 +63,7 @@ async function myFieldValidator() {
 
 3- If an error is present on the form we will show an error snackbar with the error message. We will actually include a **show error** link if the field with the relevant error is not visible ( like on another tab ). Clicking the **show error** link will direct users to the relevant field.
 
-    - We create this link by making use of the `context` property ( the block id ), this makes use of the `useBlocksHelper()` hook to get the parent tab id. We can do this by making use of the `core/block-editor` store and using `getBlockParentsByBlockName` ( link to relevant code )
+    - We create this link by making use of the `context` property (the block id), this makes use of the `useBlocksHelper()` hook to get the parent tab id. We can do this by making use of the `core/block-editor` store and using `getBlockParentsByBlockName` (link to relevant code).
     - When the field with [the error is not visible](https://github.com/woocommerce/woocommerce/blob/trunk/packages/js/product-editor/src/hooks/use-error-handler.ts#L105), a link pointing to it will be added to the snackbar.
     - Otherwise, the error will be dismissed automatically.
     - The hook `useErrorHandler` is used to get the [error props](https://github.com/woocommerce/woocommerce/blob/trunk/packages/js/product-editor/src/hooks/use-error-handler.ts#L79).
