@@ -11,7 +11,8 @@ for more information.
 
 1. Every field [will be validated](https://github.com/woocommerce/woocommerce/blob/trunk/packages/js/product-editor/src/contexts/validation-context/validation-provider.tsx#L87-L110).
 
-2. An object with the [fields with errors](https://github.com/woocommerce/woocommerce/blob/trunk/packages/js/product-editor/src/contexts/validation-context/validation-provider.tsx#L74) will be returned.
+2. An object consisting of the error/validation message, the context, and the validatorId will be returned ([link](https://github.com/woocommerce/woocommerce/blob/trunk/packages/js/product-editor/src/contexts/validation-context/validation-provider.tsx#L74) ).
+The `context` contains the block Id, and the `validatorId` a unique ID for the validator specifically ( generally a prefix with the block id ).
 
 3. If, for instance, the name field is empty, the validation will fail and will throw an object like this:
 
